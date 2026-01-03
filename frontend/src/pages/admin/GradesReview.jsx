@@ -32,7 +32,7 @@ export default function GradesReview() {
 
   return (
     <div className="page grades-review-page">
-      <h2>Grades Review</h2>
+      <h2>Grades </h2>
       <div className="enroll-list">
         {enrolls.length === 0 && <div>No enrollments yet</div>}
         {enrolls.map((e) => (
