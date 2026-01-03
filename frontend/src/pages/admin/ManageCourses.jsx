@@ -33,7 +33,7 @@ export default function ManageCourses() {
 
   return (
     <div className="page manage-courses-page">
-      <h2>Manage Courses</h2>
+      <h2>Manage </h2>
       <form className="manage-form" onSubmit={handleAdd}>
         <input placeholder="Title" value={title} onChange={(e) => setTitle(e.target.value)} required />
         <input placeholder="Description" value={desc} onChange={(e) => setDesc(e.target.value)} required />
